@@ -30,7 +30,7 @@ You may use the original dataset to explore differences or test whether combinin
 
 ## Repository Structure
 ```
-road-accident-risk/
+road/
 │
 ├── data/             # Datasets (not uploaded)
 ├── notebooks/        # Jupyter notebooks for EDA and modeling
@@ -49,8 +49,8 @@ road-accident-risk/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/road-accident-risk.git
-cd road-accident-risk
+git clone https://github.com/amritorupam/road.git
+cd road
 ```
 
 ###  2. Create a virtual environment (optional but recommended)
@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 ---
 
-## Streamlit App (Optional)
+## Streamlit App (Being Developed)
 A simple web interface for predicting accident risk can be built using Streamlit:
 ```bash
 streamlit run app/app.py
